@@ -357,3 +357,137 @@ a:hover {
     background: none;
     color: #F6BC3F;
 }
+.profileContent .col-md-12 {
+    padding: 0px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .leftSideBar.col-md-3 {
+        padding: 20px 10px;
+        height: auto;
+    }
+
+    .listCOntainerLeftSide {
+        overflow: hidden;
+    }
+
+    .listCOntainerLeftSide ul {display: flex;overflow: scroll;}
+
+    .listCOntainerLeftSide a {
+        min-width: 200px;
+        padding: 10px 20px;
+    }
+
+    .listCOntainerLeftSide li:last-child a {
+        margin: 0px;
+    }
+
+    .progileIngo {
+        top: 20px;
+        padding: 10px 10px;
+    }
+
+    .infoProfile h5 {
+        font-size: 13px;
+    }
+
+    .infoProfile {
+        top: 10px;
+    }
+
+    .infoProfile img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .bannerContainer {
+        padding: 20px 10px;
+        background-blend-mode: multiply;
+        background-color: #00000091;
+        background-position: center;
+        min-height: 400px;
+    }
+
+    .tags span {
+        font-size: 11px;
+    }
+
+    .contentCOntainerBanner h2 {
+        font-size: 42px;
+    }
+
+    .contentCOntainerBanner .uploadTrack label {
+        font-size: 13px;
+        padding: 5px 20px;
+    }
+
+    .latestTracks {
+        padding: 20px 10px;
+    }
+
+    .nameCOntainer {
+        display: block;
+    }
+
+    .nameCOntainer i.fa-play {
+        display: none;
+    }
+
+    .nameCOntainer h5 {margin: 10px 0px 0px;font-size: 12px;}
+
+    .nameCOntainer span {
+        font-size: 11px;
+    }
+
+    .latestTracks tr:not(:first-child) td {
+        font-size: 12px;
+    }
+
+    .latestTracks tr:not(:first-child) td i {
+        display: none;
+    }
+
+    .latestTracks table th {
+        font-size: 13px;
+    }
+
+    .latestTracks .container {
+        padding: 0px;
+    }
+
+    .latestTracks h2 {
+        margin-bottom: 30px;
+        font-size: 17px;
+    }
+    .accountCreattion {
+        padding: 20px 10px;
+    }
+
+    .mainRight .progileIngo {
+        position: relative;
+        max-width: max-content;
+        top: auto;
+        bottom: auto;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .bodyContainer.profile {
+        margin: 20px 0px;
+        padding: 20px;
+    }
+
+    .bodyContainer .col-md-4 {
+        padding: 0px;
+        margin-bottom: 40px;
+    }
+}
